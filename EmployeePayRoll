@@ -272,7 +272,9 @@ while (totalEmpHrs <= MAX_HRS_IN_MONTH && totalWorkingDays < Num_OF_Working_Days
     }
  }
 
- let employeepayrollData = new EmployeePayrollData(1, "Mark", 30000);
- console.log(employeepayrollData.toString());
- employeepayrollData.name = "john";
- console.log(employeepayrollData.toString());
+ let employeePayrollData=new EmployeePayrollData(1, "Mark", 30000);
+ console.log(employeePayrollData.toString());
+ employeePayrollData.name = "John";
+ console.log(employeePayrollData.toString());
+ let newEmployeePayrollData=new EmployeePayrollData(1, "Terrisa", 30000, "F", new Date());
+ console.log(newEmployeePayrollData.toString());
